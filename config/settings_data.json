@@ -1,0 +1,806 @@
+{
+  "current": {
+    "color_primary": "#0f245a",
+    "color_secondary": "#f3f3f3",
+    "color_accent": "#545454",
+    "color_body_bg": "#f3f3f3",
+    "color_borders": "#dedede",
+    "color_header_background": "#5f6f98",
+    "color_header_text": "#0f245a",
+    "color_header_cart_search": "#51618a",
+    "color_nav_bg": "#0f245a",
+    "color_nav_text": "#ffffff",
+    "color_body_text": "#0f245a",
+    "color_heading_text": "#0f245a",
+    "color_footer_bg": "#c4cad8",
+    "color_footer_text": "#0f245a",
+    "color_footer_social_link": "#c4cad8",
+    "type_base_font": "asul_n4",
+    "type_base_size": "15px",
+    "type_header_font": "asul_n4",
+    "type_header_transform": false,
+    "type_accent_font": "asul_n4",
+    "type_navigation_size": "19px",
+    "type_navigation_transform": true,
+    "type_button_size": "18px",
+    "type_button_transform": true,
+    "cart_notes_enable": false,
+    "ajax_cart_method": "modal",
+    "social_twitter_link": "",
+    "social_facebook_link": "",
+    "social_pinterest_link": "",
+    "social_google_plus_link": "",
+    "social_instagram_link": "",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_fancy_link": "",
+    "social_sharing_style": "is-normal",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "superscript_decimals": true,
+    "checkout_header_image": "shopify:\/\/shop_images\/blue_background.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo11.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "#ffffff",
+    "collection_sidebar_filters": "tags",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "menu": "main-menu",
+          "logo": "shopify:\/\/shop_images\/logo11.png",
+          "logo_max_width": "350",
+          "show_announcement": false,
+          "announcement_text": "Announce something here"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "menu": {
+            "type": "menu",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer",
+              "width": "25%"
+            }
+          },
+          "text": {
+            "type": "text",
+            "settings": {
+              "title": "Get in touch",
+              "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+              "width": "33%"
+            }
+          },
+          "newsletter": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "subtext": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+              "width": "33%"
+            }
+          }
+        },
+        "block_order": [
+          "menu",
+          "text",
+          "newsletter"
+        ],
+        "settings": {
+          "social_enabled": false,
+          "show_payment_icons": true,
+          "legal_menu": ""
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "27596525-2966-49b4-b224-a2faf95b3c5e": {
+            "type": "image",
+            "settings": {
+              "slide": "shopify:\/\/shop_images\/necklace_9.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "27596525-2966-49b4-b224-a2faf95b3c5e"
+        ],
+        "settings": {
+          "slider_home_auto": false,
+          "slider_home_rate": "5000"
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "52b667b8-0f49-494c-9e61-16d3ecfd2bcd": {
+            "type": "collection",
+            "settings": {
+              "collection": "necklaces"
+            }
+          },
+          "collection-list-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "earrings"
+            }
+          },
+          "70aab418-54de-4e6d-8f75-a3c29ad0e80f": {
+            "type": "collection",
+            "settings": {
+              "collection": "cuffs-bangles"
+            }
+          }
+        },
+        "block_order": [
+          "52b667b8-0f49-494c-9e61-16d3ecfd2bcd",
+          "collection-list-0",
+          "70aab418-54de-4e6d-8f75-a3c29ad0e80f"
+        ],
+        "settings": {}
+      },
+      "collection-row-2": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "Bracelets",
+          "home_featured_row": "bracelets",
+          "grid": 4,
+          "rows": 1,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "collection-row-3": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "Earrings",
+          "home_featured_row": "earrings",
+          "grid": 4,
+          "rows": 1,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "featured-content": {
+        "type": "featured-content",
+        "disabled": true,
+        "settings": {
+          "section_title": "Artisan Crafted",
+          "text": "<p>Welcome to Fox and Raven Jewelry. We create beautiful, one of a kind handcrafted designs using superior gemstones and metals. Each piece we create is a work of art - hand cut, hammered, polished, drilled and fabricated with care. <\/p><p>We at Fox and Raven care about our environment. Every sale plants a tree through a donation to the One Tree Planted charity, dedicated to global reforestation.<\/p>",
+          "text_size": "medium"
+        }
+      },
+      "slideshow-2": {
+        "type": "slideshow",
+        "disabled": true,
+        "blocks": {
+          "slideshow-2-0": {
+            "type": "image",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "slideshow-2-0"
+        ],
+        "settings": {
+          "slider_home_auto": false,
+          "slider_home_rate": "5000"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "grid": "4",
+          "rows": "6",
+          "collection_sidebar_filters": "tags",
+          "product_show_compare_at_price": false,
+          "product_show_saved_amount": true,
+          "product_reviews_enable": false,
+          "enable_sidebar": true
+        }
+      },
+      "1613363266d605bb1d": {
+        "type": "newsletter",
+        "settings": {
+          "heading": "We don't email often.",
+          "subtext": "<p>But when we do, it&#x27;s sure to be worth it!  Don&#x27;t miss a Sale.<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_image_zoom_enable": false,
+          "product_quantity_enable": false,
+          "product_quantity_message": false,
+          "product_incoming_message": false,
+          "product_vendor_enable": false,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false,
+          "related_products_enable": false,
+          "enable_payment_button": true,
+          "social_sharing_products": true,
+          "product_reviews_enable": false,
+          "add_to_cart_button_size": "small"
+        }
+      },
+      "16133655821a7a88f5": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "Necklaces",
+          "home_featured_row": "necklaces",
+          "grid": 3,
+          "rows": 1,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "1613365659a0f8c5f4": {
+        "type": "collection-rows",
+        "settings": {
+          "title": "Cuffs & Bangles",
+          "home_featured_row": "cuffs-bangles",
+          "grid": 4,
+          "rows": 1,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "1613408503ebb7d279": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "1613408503ebb7d279-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "cuffs-bangles-1"
+            }
+          },
+          "1613408503ebb7d279-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "bracelets"
+            }
+          }
+        },
+        "block_order": [
+          "1613408503ebb7d279-1",
+          "1613408503ebb7d279-0"
+        ],
+        "settings": {}
+      },
+      "1613410737094f7b93": {
+        "type": "collection-rows",
+        "disabled": true,
+        "settings": {
+          "title": "Featured collection",
+          "home_featured_row": "skinny-bracelets",
+          "grid": 3,
+          "rows": 1,
+          "product_show_saved_amount": true,
+          "product_show_compare_at_price": false
+        }
+      },
+      "1613459763ba5449d8": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "featured_product": "necklace-1",
+          "product_quantity_enable": false,
+          "product_vendor_enable": false,
+          "product_image_zoom_enable": true,
+          "enable_payment_button": true,
+          "social_sharing_products": false
+        }
+      },
+      "16134606670f37931c": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/necklace_1.jpg",
+          "layout": "left",
+          "title": "Artisan Crafted with Love",
+          "text": "<p>Welcome to Fox and Raven Jewelry. We create beautiful, one of a kind handcrafted designs using superior gemstones and metals. Each piece we create is a work of art ~ designed, hand-cut, hammered, polished, drilled and fabricated with care.<\/p><p>Inspired by nature&#x27;s beauty, Fox and Raven incorporates subtle shimmer, colorful gemstones, and textural elements for unsurpassed distinction.<\/p>",
+          "button_label": "Buy Lion Necklace",
+          "button_link": "shopify:\/\/products\/necklace-1"
+        }
+      },
+      "1613460971fc17b7ab": {
+        "type": "advanced-content",
+        "blocks": {
+          "1613460971fc17b7ab-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"padding:0 50px\">\n<h2>Your Purchase Supports the Environment<\/h2>\n<br>\nWe at Fox and Raven care about our environment. Every sale plants a tree through a donation to One Tree Planted, a charity dedicated to creating a healthier climate through global reforestation. Love your earth.<\/div>",
+              "width": "66%",
+              "alignment": "center"
+            }
+          },
+          "ea0064c5-303f-4289-aa9b-5edbd9a6b0ca": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center; float: center; background-position: center\">\n<img class=\"lazyautosizes lazyloaded\" style=\"max-height: 250px;\ntext-align:center; float: center; background-position: center\" data-widths=\"[125, 180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]\" data-aspectratio=\"1.0076045627376427\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_125x.jpg?v=1613500270 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_180x.jpg?v=1613500270 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_360x.jpg?v=1613500270 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_540x.jpg?v=1613500270 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_720x.jpg?v=1613500270 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_900x.jpg?v=1613500270 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_1080x.jpg?v=1613500270 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_1296x.jpg?v=1613500270 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_1512x.jpg?v=1613500270 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_1728x.jpg?v=1613500270 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_2048x.jpg?v=1613500270 2048w\" sizes=\"482px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_125x.jpg?v=1613500270 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_180x.jpg?v=1613500270 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_360x.jpg?v=1613500270 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_540x.jpg?v=1613500270 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_720x.jpg?v=1613500270 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_900x.jpg?v=1613500270 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_1080x.jpg?v=1613500270 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_1296x.jpg?v=1613500270 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_1512x.jpg?v=1613500270 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_1728x.jpg?v=1613500270 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/tree_2e_2048x.jpg?v=1613500270 2048w\">\n<\/div>",
+              "width": "33%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1613460971fc17b7ab-0",
+          "ea0064c5-303f-4289-aa9b-5edbd9a6b0ca"
+        ],
+        "settings": {}
+      },
+      "16134615355371fc65": {
+        "type": "image-with-text",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/tree_2e.jpg",
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": ""
+        }
+      },
+      "16137001882011ecbf": {
+        "type": "collection-list",
+        "disabled": true,
+        "blocks": {
+          "16137001882011ecbf-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "necklaces"
+            }
+          },
+          "16137001882011ecbf-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "earrings"
+            }
+          }
+        },
+        "block_order": [
+          "16137001882011ecbf-0",
+          "16137001882011ecbf-1"
+        ],
+        "settings": {}
+      },
+      "1614555320f36ddb16": {
+        "type": "advanced-content",
+        "blocks": {
+          "529bc3b8-4b73-40c2-9638-2cac0e2182bf": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center;\">\n<img class=\"lazyautosizes lazyloaded\" data-widths=\"[125, 180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]\" data-aspectratio=\"1.0\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_125x.jpg?v=1614556440 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_180x.jpg?v=1614556440 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_360x.jpg?v=1614556440 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_540x.jpg?v=1614556440 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_720x.jpg?v=1614556440 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_900x.jpg?v=1614556440 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1080x.jpg?v=1614556440 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1296x.jpg?v=1614556440 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1512x.jpg?v=1614556440 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1728x.jpg?v=1614556440 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_2048x.jpg?v=1614556440 2048w\" sizes=\"295px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_125x.jpg?v=1614556440 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_180x.jpg?v=1614556440 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_360x.jpg?v=1614556440 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_540x.jpg?v=1614556440 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_720x.jpg?v=1614556440 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_900x.jpg?v=1614556440 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1080x.jpg?v=1614556440 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1296x.jpg?v=1614556440 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1512x.jpg?v=1614556440 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1728x.jpg?v=1614556440 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_2048x.jpg?v=1614556440 2048w\">\n<br>\n<p>Stunning! The asymmetrical beads on the gold\/silver foil necklace are so unique and make this a statement necklace for any special occasion. Beautifully designed and even prettier than the photo!<\/p>\n- Judy\n<\/div>",
+              "width": "25%",
+              "alignment": "top-middle"
+            }
+          },
+          "1614555320f36ddb16-0": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center;\">\n<img class=\"lazyautosizes lazyloaded\" data-widths=\"[125, 180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]\" data-aspectratio=\"1.0\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_125x.jpg?v=1614556718 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_180x.jpg?v=1614556718 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_360x.jpg?v=1614556718 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_540x.jpg?v=1614556718 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_720x.jpg?v=1614556718 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_900x.jpg?v=1614556718 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1080x.jpg?v=1614556718 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1296x.jpg?v=1614556718 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1512x.jpg?v=1614556718 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1728x.jpg?v=1614556718 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_2048x.jpg?v=1614556718 2048w\" sizes=\"295px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_125x.jpg?v=1614556718 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_180x.jpg?v=1614556718 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_360x.jpg?v=1614556718 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_540x.jpg?v=1614556718 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_720x.jpg?v=1614556718 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_900x.jpg?v=1614556718 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1080x.jpg?v=1614556718 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1296x.jpg?v=1614556718 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1512x.jpg?v=1614556718 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1728x.jpg?v=1614556718 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_2048x.jpg?v=1614556718 2048w\">\n<br>\n<p>\nThe beautiful Bronze Bangle is an exquisite one of a kind heirloom quality piece...it looks amazing with my silver bangle!<\/p>\n- Audrey\n<\/div>",
+              "width": "25%",
+              "alignment": "top-middle"
+            }
+          },
+          "5898bc29-649e-4b99-b98b-f6e748ccf3cf": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center;\">\n<img class=\" lazyautosizes lazyloaded\" data-widths=\"[125, 180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]\" data-aspectratio=\"1.0\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_125x.jpg?v=1614556440 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_180x.jpg?v=1614556440 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_360x.jpg?v=1614556440 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_540x.jpg?v=1614556440 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_720x.jpg?v=1614556440 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_900x.jpg?v=1614556440 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1080x.jpg?v=1614556440 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1296x.jpg?v=1614556440 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1512x.jpg?v=1614556440 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1728x.jpg?v=1614556440 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_2048x.jpg?v=1614556440 2048w\" sizes=\"295px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_125x.jpg?v=1614556440 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_180x.jpg?v=1614556440 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_360x.jpg?v=1614556440 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_540x.jpg?v=1614556440 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_720x.jpg?v=1614556440 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_900x.jpg?v=1614556440 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1080x.jpg?v=1614556440 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1296x.jpg?v=1614556440 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1512x.jpg?v=1614556440 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_1728x.jpg?v=1614556440 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/judy_-_foil_venetian_glass_necklace_2048x.jpg?v=1614556440 2048w\">\n<br>\n<p>Stunning! The asymmetrical beads on the necklace are so unique and make this a statement necklace for any special occasion. Beautifully designed, shipped quickly and even prettier than the photo!<\/p>\n- Judy\n<\/div>",
+              "width": "25%",
+              "alignment": "top-middle"
+            }
+          },
+          "a5d4284a-6efc-4b1d-b0d5-a83f003596d5": {
+            "type": "html",
+            "settings": {
+              "code": "<div style=\"text-align:center;\">\n<img class=\"lazyautosizes lazyloaded\" data-widths=\"[125, 180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]\" data-aspectratio=\"1.0\" data-sizes=\"auto\" alt=\"\" data-srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_125x.jpg?v=1614556718 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_180x.jpg?v=1614556718 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_360x.jpg?v=1614556718 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_540x.jpg?v=1614556718 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_720x.jpg?v=1614556718 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_900x.jpg?v=1614556718 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1080x.jpg?v=1614556718 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1296x.jpg?v=1614556718 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1512x.jpg?v=1614556718 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1728x.jpg?v=1614556718 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_2048x.jpg?v=1614556718 2048w\" sizes=\"295px\" srcset=\"\/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_125x.jpg?v=1614556718 125w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_180x.jpg?v=1614556718 180w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_360x.jpg?v=1614556718 360w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_540x.jpg?v=1614556718 540w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_720x.jpg?v=1614556718 720w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_900x.jpg?v=1614556718 900w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1080x.jpg?v=1614556718 1080w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1296x.jpg?v=1614556718 1296w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1512x.jpg?v=1614556718 1512w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_1728x.jpg?v=1614556718 1728w, \/\/cdn.shopify.com\/s\/files\/1\/0543\/0450\/6037\/files\/A_-_bronze_bangle_2048x.jpg?v=1614556718 2048w\">\n<br>\n<p>The customer service was exceptional, as they expertly and patiently answered all of my questions. I look forward to my next purchase!<\/p>\n- Sheila\n<\/div>",
+              "width": "25%",
+              "alignment": "top-middle"
+            }
+          }
+        },
+        "block_order": [
+          "529bc3b8-4b73-40c2-9638-2cac0e2182bf",
+          "1614555320f36ddb16-0",
+          "5898bc29-649e-4b99-b98b-f6e748ccf3cf",
+          "a5d4284a-6efc-4b1d-b0d5-a83f003596d5"
+        ],
+        "settings": {}
+      },
+      "1614556096376d1e88": {
+        "type": "featured-content",
+        "settings": {
+          "section_title": "Reviews from our Great Customers",
+          "text": "",
+          "text_size": "small"
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "collection-list",
+      "16137001882011ecbf",
+      "1613408503ebb7d279",
+      "16134606670f37931c",
+      "1613459763ba5449d8",
+      "16133655821a7a88f5",
+      "1613365659a0f8c5f4",
+      "collection-row-2",
+      "collection-row-3",
+      "slideshow-2",
+      "featured-content",
+      "1613363266d605bb1d",
+      "1613410737094f7b93",
+      "1613460971fc17b7ab",
+      "16134615355371fc65",
+      "1614556096376d1e88",
+      "1614555320f36ddb16"
+    ]
+  },
+  "presets": {
+    "Blue": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#dd2525",
+      "color_body_bg": "#fff",
+      "color_body_text": "#585858",
+      "color_borders": "#ececec",
+      "color_footer_bg": "#f2f2f2",
+      "color_footer_social_link": "#bbbbbb",
+      "color_footer_text": "#636363",
+      "color_header_background": "#182e49",
+      "color_header_cart_search": "#0f243d",
+      "color_header_text": "#fff",
+      "color_heading_text": "#000",
+      "color_nav_bg": "#182e49",
+      "color_nav_text": "#fff",
+      "color_primary": "#528ec1",
+      "color_secondary": "#dcdcdc",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_fancy_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_pinterest_link": "",
+      "social_sharing_style": "is-normal",
+      "social_snapchat_link": "",
+      "social_tumblr_link": "",
+      "social_twitter_link": "",
+      "social_vimeo_link": "",
+      "social_youtube_link": "",
+      "type_accent_font": "montserrat_n5",
+      "type_base_font": "montserrat_n5",
+      "type_base_size": "13px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_font": "montserrat_n7",
+      "type_header_transform": true,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            },
+            "slide-2": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1",
+            "slide-2"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3"
+      ]
+    },
+    "Light": {
+      "ajax_cart_method": "modal",
+      "cart_notes_enable": false,
+      "collection_sidebar_filters": "tags",
+      "color_accent": "#545454",
+      "color_body_bg": "#f3f3f3",
+      "color_body_text": "#858585",
+      "color_borders": "#dedede",
+      "color_footer_bg": "#ffffff",
+      "color_footer_social_link": "#545454",
+      "color_footer_text": "#545454",
+      "color_header_background": "#ffffff",
+      "color_header_cart_search": "#f3f3f3",
+      "color_header_text": "#545454",
+      "color_heading_text": "#2f2f2f",
+      "color_nav_bg": "#9c756f",
+      "color_nav_text": "#ffffff",
+      "color_primary": "#9c756f",
+      "color_secondary": "#f3f3f3",
+      "share_facebook": true,
+      "share_pinterest": true,
+      "share_twitter": true,
+      "social_facebook_link": "",
+      "social_google_plus_link": "",
+      "social_instagram_link": "",
+      "social_sharing_style": "is-normal",
+      "social_twitter_link": "",
+      "type_accent_font": "lato_n7",
+      "type_base_font": "roboto_n4",
+      "type_base_size": "14px",
+      "type_button_size": "14px",
+      "type_button_transform": true,
+      "type_header_font": "times_new_roman_n7",
+      "type_header_transform": false,
+      "type_navigation_size": "14px",
+      "type_navigation_transform": true,
+      "superscript_decimals": true,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": "305"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "menu": {
+              "type": "menu",
+              "settings": {
+                "title": "Quick links",
+                "menu": "",
+                "width": "16%"
+              }
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "title": "Get in touch",
+                "richtext": "<p>Use this text to share information about your brand with your customers.<\/p>",
+                "width": "50%"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "width": "33%"
+              }
+            }
+          },
+          "block_order": [
+            "menu",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "social_enabled": false,
+            "legal_menu": ""
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {
+                "collection": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1"
+          ],
+          "settings": {}
+        },
+        "collection-row-1": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-2": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "collection-row-3": {
+          "type": "collection-rows",
+          "settings": {
+            "home_featured_row": "",
+            "grid": 4,
+            "rows": 1
+          }
+        },
+        "featured-content": {
+          "type": "featured-content",
+          "settings": {}
+        },
+        "slideshow-2": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-2-0": {
+              "type": "image",
+              "settings": {
+                "slide": "",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-2-0"
+          ],
+          "settings": {
+            "slider_home_auto": false,
+            "slider_home_rate": "5000"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "collection-list",
+        "collection-row-1",
+        "collection-row-2",
+        "collection-row-3",
+        "slideshow-2",
+        "featured-content"
+      ]
+    }
+  }
+}
