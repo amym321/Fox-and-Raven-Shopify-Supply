@@ -169,13 +169,15 @@
       <hr class="hr--small">
       <div class="grid">
       <div class="grid-item{% unless shop.enabled_payment_types == empty %} large--two-fifths{% endunless %}">
-          <ul class="legal-links inline-list">
+          <ul class="legal-links inline-list text-center">
               <li>
                 &copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: routes.root_url }}
               </li>
+              {% comment %}
               <li>
                 {{ powered_by_link }}
               </li>
+              {% endcomment %}
           </ul>
       </div>
 
@@ -195,9 +197,7 @@
       {%- endif -%}
 
     </div>
-
   </div>
-
 </footer>
 
 

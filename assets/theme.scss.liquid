@@ -6100,3 +6100,54 @@ $color-blankstate-background: rgba($colorTextBody, 0.1);
     font-size: 11px; 
   }
 }
+
+/* ======================================
+/* additions AM
+/* ======================================*/
+
+/* width. removed wrapper 20px padding */
+// @media screen and (min-width: 481px) {
+//   .wrapper {
+//       padding: 0 0;
+//   }  
+// }
+
+/* not ideal */
+// @media screen and (min-width: 769px) {
+//   .flex-direction-nav .flex-next {
+//       right: 0;
+//       left: 0;
+//   }
+// }
+
+/* does't work */
+// @media screen and (min-width: 1120px) {
+//   .flex-direction-nav .flex-prev {
+//       left: 0;
+//       right: 0;
+//   }
+// }
+
+// .template-index .main-content {
+//   max-width: 100%;
+// }
+
+/* center rich text, customer reviews */
+.rich-text__heading p {
+  text-align: center;
+}
+
+/* hr border width set to 0 to remove line and retain padding */ 
+#shopify-section-1614555320f36ddb16 hr,
+#shopify-section-1613363266d605bb1d hr,
+#shopify-section-1613460971fc17b7ab hr {
+  border-top-width: 0px;
+}
+
+/* paint brush background to newsletter */
+.brush-box {
+  padding: 80px 20px;
+  background-image: url(//cdn.shopify.com/s/files/1/0543/0450/6037/files/brush-stroke_3b.png?); 
+  object-fit: fill;
+  background-size: 100% 100%;
+}
